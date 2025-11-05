@@ -20,7 +20,7 @@
       "events": [
         {
           "id": "b57cc8f3-0967-44ed-adc9-6f56ceec534d",
-          "name": "靜止式調查物件(27)",
+          "name": "螢幕",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -61,7 +61,7 @@
         },
         {
           "id": "bdc8fd17-15de-46ac-9595-1cc136cf7fae",
-          "name": "靜止式調查物件(30)",
+          "name": "枕頭",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -87,6 +87,47 @@
             },
             "text": "枕枕\n枕枕\n枕枕",
             "textColor": "#aac6cf",
+            "hasBackground": true,
+            "opacity": 1,
+            "layer": "front",
+            "canPush": false,
+            "canDelete": false,
+            "canSplit": true,
+            "eventTriggerAction": "press",
+            "existCondition": "",
+            "command": [],
+            "#loopMoveRoute": [],
+            "isOnTopOfPlayer": false
+          }
+        },
+        {
+          "id": "a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6",
+          "name": "鏡子",
+          "type": "event",
+          "propertyId": "staticNPC",
+          "property": {
+            "text": "",
+            "tag": "[a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6]_tag",
+            "pos": [
+              0,
+              0
+            ],
+            "callbackId": null,
+            "layer": "front",
+            "refTexts": [
+              {
+                "id": null
+              }
+            ],
+            "clearAfterComplete": true
+          },
+          "attribute": {
+            "pos": {
+              "x": 1,
+              "y": 5
+            },
+            "text": "鏡\n鏡",
+            "textColor": "#535a5a",
             "hasBackground": true,
             "opacity": 1,
             "layer": "front",
@@ -212,7 +253,7 @@
         },
         {
           "id": "2441dd11-4750-47ac-8205-901d4828f627",
-          "name": "靜止式調查物件(2)",
+          "name": "窗01",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -335,7 +376,7 @@
         },
         {
           "id": "cb73366a-224d-4139-9d86-299a90deaefa",
-          "name": "靜止式調查物件(9)",
+          "name": "牆（西面）",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -376,7 +417,7 @@
         },
         {
           "id": "730d0a63-02c2-43a4-8267-c0118dfa1f96",
-          "name": "靜止式調查物件(14)",
+          "name": "牆（南面1）",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -417,7 +458,7 @@
         },
         {
           "id": "4d7e7f9d-de75-4ab7-a81a-7518a1a3fe7f",
-          "name": "靜止式調查物件(20)",
+          "name": "走道牆壁",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -458,7 +499,7 @@
         },
         {
           "id": "fb676850-23e1-49f8-806f-eb9d3bb216b3",
-          "name": "靜止式調查物件(20)",
+          "name": "牆（南面2）",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -540,7 +581,7 @@
         },
         {
           "id": "c824bd05-8006-4caa-8b7d-d5c0165bffe8",
-          "name": "靜止式調查物件(16)",
+          "name": "文字牆（隔間）",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -580,49 +621,8 @@
           }
         },
         {
-          "id": "a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6",
-          "name": "靜止式調查物件(29)",
-          "type": "event",
-          "propertyId": "staticNPC",
-          "property": {
-            "text": "",
-            "tag": "[a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6]_tag",
-            "pos": [
-              0,
-              0
-            ],
-            "callbackId": null,
-            "layer": "mid",
-            "refTexts": [
-              {
-                "id": null
-              }
-            ],
-            "clearAfterComplete": true
-          },
-          "attribute": {
-            "pos": {
-              "x": 1,
-              "y": 5
-            },
-            "text": "鏡\n鏡",
-            "textColor": "#535a5a",
-            "hasBackground": true,
-            "opacity": 1,
-            "layer": "mid",
-            "canPush": false,
-            "canDelete": false,
-            "canSplit": true,
-            "eventTriggerAction": "press",
-            "existCondition": "",
-            "command": [],
-            "#loopMoveRoute": [],
-            "isOnTopOfPlayer": false
-          }
-        },
-        {
           "id": "f73a7e78-7bde-4f2c-afd3-f18fffc61379",
-          "name": "靜止式調查物件(31)",
+          "name": "洗手台",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -646,212 +646,7 @@
               "x": 1,
               "y": 4
             },
-            "text": "盆",
-            "textColor": "#ffffff",
-            "hasBackground": true,
-            "opacity": 1,
-            "layer": "mid",
-            "canPush": false,
-            "canDelete": false,
-            "canSplit": true,
-            "eventTriggerAction": "press",
-            "existCondition": "",
-            "command": [],
-            "#loopMoveRoute": [],
-            "isOnTopOfPlayer": false
-          }
-        },
-        {
-          "id": "bfd93a2b-e811-4dbf-89a1-2b5d5d3c9d1c",
-          "name": "靜止式調查物件(32)",
-          "type": "event",
-          "propertyId": "staticNPC",
-          "property": {
-            "text": "",
-            "tag": "[a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6]_tag",
-            "pos": [
-              0,
-              0
-            ],
-            "callbackId": null,
-            "layer": "mid",
-            "refTexts": [
-              {
-                "id": null
-              }
-            ],
-            "clearAfterComplete": true
-          },
-          "attribute": {
-            "pos": {
-              "x": 2,
-              "y": 4
-            },
-            "text": "盆",
-            "textColor": "#ffffff",
-            "hasBackground": true,
-            "opacity": 1,
-            "layer": "mid",
-            "canPush": false,
-            "canDelete": false,
-            "canSplit": true,
-            "eventTriggerAction": "press",
-            "existCondition": "",
-            "command": [],
-            "#loopMoveRoute": [],
-            "isOnTopOfPlayer": false
-          }
-        },
-        {
-          "id": "08675cee-b1e3-463b-9993-f136069867a6",
-          "name": "靜止式調查物件(33)",
-          "type": "event",
-          "propertyId": "staticNPC",
-          "property": {
-            "text": "",
-            "tag": "[a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6]_tag",
-            "pos": [
-              0,
-              0
-            ],
-            "callbackId": null,
-            "layer": "mid",
-            "refTexts": [
-              {
-                "id": null
-              }
-            ],
-            "clearAfterComplete": true
-          },
-          "attribute": {
-            "pos": {
-              "x": 2,
-              "y": 5
-            },
-            "text": "盆",
-            "textColor": "#ffffff",
-            "hasBackground": true,
-            "opacity": 1,
-            "layer": "mid",
-            "canPush": false,
-            "canDelete": false,
-            "canSplit": true,
-            "eventTriggerAction": "press",
-            "existCondition": "",
-            "command": [],
-            "#loopMoveRoute": [],
-            "isOnTopOfPlayer": false
-          }
-        },
-        {
-          "id": "303025c5-f116-499b-af26-38f097bd7614",
-          "name": "靜止式調查物件(34)",
-          "type": "event",
-          "propertyId": "staticNPC",
-          "property": {
-            "text": "",
-            "tag": "[a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6]_tag",
-            "pos": [
-              0,
-              0
-            ],
-            "callbackId": null,
-            "layer": "mid",
-            "refTexts": [
-              {
-                "id": null
-              }
-            ],
-            "clearAfterComplete": true
-          },
-          "attribute": {
-            "pos": {
-              "x": 2,
-              "y": 6
-            },
-            "text": "盆",
-            "textColor": "#ffffff",
-            "hasBackground": true,
-            "opacity": 1,
-            "layer": "mid",
-            "canPush": false,
-            "canDelete": false,
-            "canSplit": true,
-            "eventTriggerAction": "press",
-            "existCondition": "",
-            "command": [],
-            "#loopMoveRoute": [],
-            "isOnTopOfPlayer": false
-          }
-        },
-        {
-          "id": "3a2a234e-5aa2-4c26-895c-134949dd2be0",
-          "name": "靜止式調查物件(35)",
-          "type": "event",
-          "propertyId": "staticNPC",
-          "property": {
-            "text": "",
-            "tag": "[a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6]_tag",
-            "pos": [
-              0,
-              0
-            ],
-            "callbackId": null,
-            "layer": "mid",
-            "refTexts": [
-              {
-                "id": null
-              }
-            ],
-            "clearAfterComplete": true
-          },
-          "attribute": {
-            "pos": {
-              "x": 2,
-              "y": 7
-            },
-            "text": "盆",
-            "textColor": "#ffffff",
-            "hasBackground": true,
-            "opacity": 1,
-            "layer": "mid",
-            "canPush": false,
-            "canDelete": false,
-            "canSplit": true,
-            "eventTriggerAction": "press",
-            "existCondition": "",
-            "command": [],
-            "#loopMoveRoute": [],
-            "isOnTopOfPlayer": false
-          }
-        },
-        {
-          "id": "08e2cbdc-2070-408f-9b40-434eea1a5916",
-          "name": "靜止式調查物件(36)",
-          "type": "event",
-          "propertyId": "staticNPC",
-          "property": {
-            "text": "",
-            "tag": "[a10d0fd0-fbb4-4eb6-8030-e5d8e4019da6]_tag",
-            "pos": [
-              0,
-              0
-            ],
-            "callbackId": null,
-            "layer": "mid",
-            "refTexts": [
-              {
-                "id": null
-              }
-            ],
-            "clearAfterComplete": true
-          },
-          "attribute": {
-            "pos": {
-              "x": 1,
-              "y": 7
-            },
-            "text": "盆",
+            "text": "盆盆\n盆盆\n盆盆\n盆盆",
             "textColor": "#ffffff",
             "hasBackground": true,
             "opacity": 1,
@@ -1032,7 +827,7 @@
         },
         {
           "id": "46e6e383-35a3-43f8-bec0-1d2509f3db88",
-          "name": "靜止式調查物件(44)",
+          "name": "衣櫃",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1073,7 +868,7 @@
         },
         {
           "id": "8e5c3b49-6b6f-4f51-8515-d94882398c1c",
-          "name": "靜止式調查物件(45)",
+          "name": "小置物檯",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1155,7 +950,7 @@
         },
         {
           "id": "48f9c1a5-8961-4a01-8c66-d1866bc99b66",
-          "name": "靜止式調查物件(55)",
+          "name": "床",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1196,7 +991,7 @@
         },
         {
           "id": "95606e08-f104-4eb0-80ef-acc47c69d184",
-          "name": "靜止式調查物件(18)",
+          "name": "置物櫃（頂）",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1237,7 +1032,7 @@
         },
         {
           "id": "0479bcb3-5878-44c0-85b8-41adcb2dfa91",
-          "name": "靜止式調查物件(19)",
+          "name": "置物櫃（前）",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1278,7 +1073,7 @@
         },
         {
           "id": "3783b976-5fe8-4944-9974-533a9f5f8f44",
-          "name": "靜止式調查物件(3)",
+          "name": "牆（東面）",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1319,7 +1114,7 @@
         },
         {
           "id": "2caf58c5-33db-4e57-a29d-218a825ac848",
-          "name": "靜止式調查物件(6)",
+          "name": "窗02",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1442,7 +1237,7 @@
         },
         {
           "id": "614efbd0-ce5a-4711-82ea-d8dfc6eb8f68",
-          "name": "靜止式調查物件(22)",
+          "name": "窗03",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1524,7 +1319,7 @@
         },
         {
           "id": "21d4ad9b-90c7-4f22-9687-41c561dcf2f3",
-          "name": "靜止式調查物件(24)",
+          "name": "冰箱",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1565,7 +1360,7 @@
         },
         {
           "id": "45feb2de-e7e2-4304-bbdc-93142dbef45e",
-          "name": "靜止式調查物件(25)",
+          "name": "桌子",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1606,7 +1401,7 @@
         },
         {
           "id": "10fca8a7-ffe0-4ee8-8598-b44a7b273a55",
-          "name": "靜止式調查物件(26)",
+          "name": "椅子",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1647,7 +1442,7 @@
         },
         {
           "id": "f6ec0043-6225-43dd-a886-750890a34121",
-          "name": "靜止式調查物件(10)",
+          "name": "床頭櫃",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1688,7 +1483,7 @@
         },
         {
           "id": "4ad225ee-f1b8-45cc-b017-65f6bb382397",
-          "name": "靜止式調查物件(11)",
+          "name": "鞋架",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1729,7 +1524,7 @@
         },
         {
           "id": "a5e703b1-0484-4584-bebb-b9fe534cdfb6",
-          "name": "靜止式調查物件(16)",
+          "name": "浴廁門",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
@@ -1770,7 +1565,7 @@
         },
         {
           "id": "2b1c1356-88a8-48f4-bdb5-70e2a5faefe6",
-          "name": "靜止式調查物件(14)",
+          "name": "房門",
           "type": "event",
           "propertyId": "staticNPC",
           "property": {
