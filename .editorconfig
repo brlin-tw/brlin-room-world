@@ -54,7 +54,7 @@ indent_size = 2
 indent_size = 2
 
 # YAML documents
-[*.{yml,yaml}]
+[*.{yml,yaml,world}]
 indent_size = 2
 
 [.*.{yml,yaml}]
